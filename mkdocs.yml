@@ -1,0 +1,21 @@
+site_name: Connect Guide
+theme: 
+  name: material
+  palette:
+    scheme: slate
+    primary: cyan
+
+site_author: Conch
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - index.md
+  - getting_started.md
+  - getting_familiar.md
+  - configuration.md
+  - community.md
+  - connect_plus.md
+  - legal.md
