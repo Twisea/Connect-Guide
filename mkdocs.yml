@@ -13,9 +13,3 @@ markdown_extensions:
 
 nav:
   - index.md
-  - getting_started.md
-  - getting_familiar.md
-  - configuration.md
-  - community.md
-  - connect_plus.md
-  - legal.md
