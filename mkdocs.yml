@@ -10,8 +10,12 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - def_list
+  - attr_list
+  - md_in_html
 
-nav:
-  - index.md
-  - getting-started.md
+# nav:
+#   - index.md
+#   - getting-started.md
