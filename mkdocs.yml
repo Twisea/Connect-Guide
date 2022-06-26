@@ -10,6 +10,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - def_list
 
 nav:
   - index.md
+  - getting-started.md
