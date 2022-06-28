@@ -4,7 +4,7 @@ This section will guide you through making a post for your Connect account.
 ## The `post` command
 There is only one way to make a post with Connect, and that is with the `/post` command.
 
-`/post <option: [Text | Image]>`
+`/post <option: [Text | Image | Poll]>`
 :   The `post` command will show an embed with three buttons and a select menu.
 
     === "`Content` Button"
@@ -16,7 +16,19 @@ There is only one way to make a post with Connect, and that is with the `/post` 
     === "`Extra Options` Select Menu"
         The `Extra Options` select menu will display a list of options for you to choose from. These include marking your post as NSFW or selecting whether to make the post also available on your linked Twitter account. 
     
-    The `post` command takes two options: `Text` and `Image`. The `text` option allows you to make a text post consisting of an optional title and content. The `image` option allows you to make an image post consisting of an optional title and an image URL.
+    The `post` command takes three options:
+
+    `Text`
+    :   A `text` post is a post consisting of two text fields. The title is optional and can have as much as fifty characters, while the content is required and can have up to 300 characters.
+
+    `Image`
+    :   An `image` post is a post consisting of a title and an image. The title is optional and can have up to fifty characters, while the image URL is required and can have up to 200 characters.
+
+    `Poll`
+    :   A `poll` post is a post consisting of a title and a poll. The title is optional and can have up to fifty characters, while the poll is required and can have from 2-4 options.
+
+    !!! tip "Extra Fields"
+        The `color` field is another field used to customize the color of your post's embed. This field is only available with Connect Plus.
 
 ## Information About Connect Post Creation
 While most of the post creation process is decided by you, the user, there's a few checks and processes that go on behind the scenes.

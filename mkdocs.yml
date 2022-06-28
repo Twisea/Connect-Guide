@@ -13,8 +13,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - def_list
-  - attr_list
-  - md_in_html
+  - footnotes
 
 # nav:
 #   - index.md
